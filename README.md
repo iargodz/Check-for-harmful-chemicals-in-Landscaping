@@ -9,10 +9,6 @@ type: submission, comment
 
 title+body:
   regex:
-    - 'Glyphosate'
-    - 'Roundup'
-    - 'Atrazine'
-    - 'AAtrex'
     - '2,4-D'
     - 'Weedar'
     - '2,4,5-T'
@@ -44,6 +40,8 @@ title+body:
     - 'Lasso'
     - 'Metribuzin'
     - 'Sencor'
+    - 'Glue trap'
+    - 'poison'
     - 'Terbuthylazine'
     - 'Clopyralid'
     - 'Stinger'
@@ -52,7 +50,8 @@ title+body:
     - 'Dinoseb'
     - 'Glyphosate-isopropylamine'
     - 'Glyphosate-potassium'
-    - 'Monosodium methanearsonate (MSMA)'
+    - 'Monosodium methanearsonate'
+    - 'MSMA'
     - 'Arsenic acid'
     - 'Sodium arsenite'
     - 'Calcium arsenate'
@@ -81,6 +80,10 @@ title+body:
     - 'Chlorpyrifos'
     - 'Lorsban'
     - 'Diazinon'
+    - 'Glyphosate'
+    - 'Roundup'
+    - 'Atrazine'
+    - 'AAtrex'
     - 'Ethion'
     - 'Chlorfenvinphos'
     - 'Clofentezine'
@@ -119,7 +122,7 @@ title+body:
     - 'Chloropicrin'
     - 'Fentin'
     - 'Thiabendazole'
-    - 'Tributyltin oxide (TBTO)'
+    - 'Tributyltin oxide'
     - 'Copper sulfate'
     - 'Copper oxychloride'
     - 'Bordeaux mixture'
@@ -138,8 +141,8 @@ title+body:
     - 'Tebuconazole'
     - 'Azoxystrobin'
     - 'Termidor'
-    - 'Pentachloronitrobenzene' 
-    - 'Quintozene)'
+    - 'Pentachloronitrobenzene'
+    - 'Quintozene'
 
 body:
   regex:
@@ -256,7 +259,7 @@ body:
     - 'Chloropicrin'
     - 'Fentin'
     - 'Thiabendazole'
-    - 'Tributyltin oxide (TBTO)'
+    - 'Tributyltin oxide'
     - 'Copper sulfate'
     - 'Copper oxychloride'
     - 'Bordeaux mixture'
@@ -279,5 +282,5 @@ body:
     - 'Quintozene'
 
 action: comment
-comment: "this suggestion may be harmful and may be banned in some places."
+comment: "this suggestion may be harmful and may be banned in some places. This is an automatically generated message"
 ---
