@@ -15,7 +15,6 @@ Empirical data from US EPA / NPIC / Genetic Literacy on health incidents
 Newsworthy developments (e.g. UK neonicotinoid bans, EU export/export controversies).
 If you need to be completely certain - please do your own research of each item in the list and decide if it belongs there or not. 
 
----
 type: any
 title+body (regex):
     - '2,4-D'
@@ -153,4 +152,3 @@ title+body (regex):
     - 'Pentachloronitrobenzene' 
     - 'Quintozene'
 comment: "this suggestion may be harmful and may be banned in some places. This is an automatically generated message"
----
